@@ -9,10 +9,14 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
-
-## Testing
-Run:
+## Usage
 
 ```bash
-python tests.py
+python main.py
+```
+Avec Docker, 
+
+```bash
+docker image build -t <app-name>
+docker run <app-name>
 ```
