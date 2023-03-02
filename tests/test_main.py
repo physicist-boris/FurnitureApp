@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 import os
-from ..main import app
+from main import app
 
 
 tests_directory_path = os.path.dirname(__file__)
